@@ -1,0 +1,38 @@
+/* section */
+.columna-1{
+	flex:3 1;
+	display: flex;
+	flex-flow: row wrap;
+	height: 100%;
+	margin-bottom: 5px;
+	margin-left: 5px;
+}
+
+.navegacion{
+	flex: 1 1 100%;
+	background: rgba(138, 135, 109, 0.466);
+	margin-top: 30px;
+	margin-right: 10px;
+	border-radius: 0.25rem;
+}
+	
+
+.articulo-1{
+    margin: 10px 10px 0 0px;
+	flex:1 1 45%;
+    img{
+        max-width: 100%; 
+        
+    }
+    a{
+        color:#fff;
+	    font-size: 13px;
+	    padding: 10px 10px;
+	    background: #000;
+	    margin:10px 0;
+	    border-radius: 0.25rem;
+    &:hover{
+        background: #cbcc7d;
+        }
+    }
+}

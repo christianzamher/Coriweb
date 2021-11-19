@@ -1,0 +1,20 @@
+/* header*/
+.grid-header{
+	padding: $paddingGeneral;
+	grid-area: header
+}
+
+.nav-item{
+	display: flex;
+	flex-flow: column nowrap;
+    align-items: flex-start;
+	justify-content: center;
+	letter-spacing: 5px; 
+}
+
+.ul-header{
+	display: flex;
+	justify-items: center;
+	list-style:none;
+	font-size: 14px;
+}

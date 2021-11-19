@@ -1,0 +1,78 @@
+/* Seteos Generales */
+
+
+html{
+	scroll-behavior: $scroll;
+}
+body{
+	background: $bg-body;
+	font-family: 'Truculenta', sans-serif;
+	font-weight: 900;
+	
+}
+
+a{
+	text-decoration: none;
+	color: #080808;
+	padding: 0 9px;
+	
+        &:hover{
+	        filter: opacity(.5);
+	        transition:all .5s ease-in-out;
+	        color: #333232;
+	        text-decoration: none;
+        }
+}
+
+/*body */
+.grid-container{
+	margin: 10px;
+	display: grid;
+	grid-template-areas: 
+	"header header header"
+	"aside main main"
+	"aside main main"
+	"aside main main"
+	"aside main main"
+	"footer footer footer";
+	grid-template-rows: repeat(auto-fill,1fr);
+	height: 900px;
+	gap: 5px ;
+}
+
+.logo-container{
+    font-family: 'Dancing Script', cursive;
+    display: flex;
+    justify-content: flex-start;
+
+    &:hover{
+        filter: opacity(.5);
+        transition:all .5s ease-in-out;
+        color: #c7c284;
+    }
+}
+
+
+
+
+@media screen and (min-width: 400px) and (max-width: 600px){
+	body{
+		background: red;
+		padding: 10px;
+		color: #fff;
+	}
+}
+
+@media screen and (min-width: 601px) and (max-width: 800px){
+	body{
+		background: green;
+		font-size:50px;
+		color: crimson;
+	}
+}
+@media screen  and (max-width: 1000px){
+	body{
+		background: orange;
+		margin: 50px;
+	}
+}
