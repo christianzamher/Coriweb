@@ -2,12 +2,20 @@
     padding: $paddingGeneral;
     grid-area: aside
 }
+
+.asideIndex{
+    display: flex;
+    flex-flow: column nowrap;
+    align-content: center;
+    
+}
         
 .p-item{
     display: flex;
     width: 440px;
     font-size: 20px;
     text-align: left;
+    
 }
         
 .nav{
@@ -27,5 +35,15 @@
     
 .img-contact{
     width: 400px;
+}
+
+.imgWelcome{
+    display: flex;
+    width: 400px;
+    height: 300px;
+    
+    
+    
+    
 }
     

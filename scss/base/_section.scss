@@ -31,8 +31,17 @@
 	    background: #000;
 	    margin:10px 0;
 	    border-radius: 0.25rem;
+		
     &:hover{
         background: #cbcc7d;
         }
     }
+}
+
+.imgGalleryBottom{
+	padding-bottom: 10px;
+}
+
+.imgGalleryTop{
+	padding: 10px 0px 20px 0px;
 }

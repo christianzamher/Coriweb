@@ -124,8 +124,8 @@ html {
 }
 
 body {
-  background: linear-gradient(to left, #E5DCC3 25%, #C7BEA2 30%, #AAA492 75%, #9A9483 75%);
-  font-family: "Truculenta", sans-serif;
+  background: #ffffff;
+  font-family: "Roboto", sans-serif;
   font-weight: 900;
 }
 
