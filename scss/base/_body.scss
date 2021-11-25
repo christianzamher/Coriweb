@@ -57,9 +57,9 @@ a{
 
 
 
-@media screen and (min-width: 400px) and (max-width: 600px){
+@media screen and (min-width: 300px) and (max-width: 600px){
 	body{
-		background: red;
+		background: $bgBody;
 		padding: 10px;
 		color: #fff;
 	}
@@ -67,14 +67,14 @@ a{
 
 @media screen and (min-width: 601px) and (max-width: 800px){
 	body{
-		background: green;
+		background: $bgBody;
 		font-size:50px;
 		color: crimson;
 	}
 }
 @media screen  and (max-width: 1000px){
 	body{
-		background: orange;
+		background: $bgBody;
 		margin: 50px;
 	}
 }
