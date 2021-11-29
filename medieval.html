@@ -36,50 +36,47 @@
 <body class="grid-container" >
     <header class="grid-header">
       <img class="logoWeb animate__animated animate__fadeInDown" src="./images/logoweb.jpg" alt="logo web">
-         <nav class="nav-item">
+         <!-- Navbar principal -->
+            <nav class="nav-item">
              <ul class="ul-header">
                 <li >
-                  <a class="a-style " aria-current="page" href="index.html"><i class="fa fa-home" aria-hidden="true"></i>Home</a>
+                  <a class="a-style " aria-current="page" href="index.html">|<i class="fa fa-home" aria-hidden="true"></i>Inicio</a>
                 </li>
                 <li >
-                  <a class=" " href="about.html"><i class="fa fa-user" aria-hidden="true"></i>About Me</a>
+                  <a class=" " href="about.html">|<i class="fa fa-user" aria-hidden="true"></i>Bio</a>
                 </li>
                 <li >
-                  <a class=" " href="service.html"><i class="fa fa-comments" aria-hidden="true"></i>Services</a>
+                  <a class=" " href="service.html">|<i class="fa fa-comments" aria-hidden="true"></i>Servicio</a>
                 </li>
                 <li >
-                  <a class=" " href="contactus.html"><i class="fa fa-phone" aria-hidden="true"></i>Contact</a>
+                  <a class=" " href="contactus.html">|<i class="fa fa-phone" aria-hidden="true"></i>Contacto</a>
                 </li>
               </ul>
             </nav> 
-
+            <!-- Navegacion de menues -->
             <nav class="navbar navbar-light" style="background-color: #cfcfbc;">
               <div class="container-fluid">
-                <a class="navbar-brand" href="index.html"></a>
+                <a class="navbar-brand" href="store.html"><i class="fas fa-shield-alt"></i> Medieval</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                      <a class="nav-link active" aria-current="page" href="index.html"><i class="fa fa-home" aria-hidden="true"></i>Inicio</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="contactus.html">Contact</a>
+                      <a class="nav-link" href="contactus.html"><i class="fas fa-address-book"></i>Contacto</a>
                     </li>
                     <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Galery
-                      </a>
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-camera-retro"></i>Galeria</a>
                       <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="medieval.html">Medieval Style</a></li>
-                        <li><a class="dropdown-item" href="theatre.html">Theatre</a></li>
-                        <li><a class="dropdown-item" href="galery.html">Stuff</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="store.html">Store</a></li>
+                        <li><a class="dropdown-item" href="medieval.html"><i class="fas fa-shield-alt"></i>Medieval</a></li>
+                        <li><a class="dropdown-item" href="theatre.html"><i class="fas fa-theater-masks"></i>Teatro</a></li>
+                        <li><a class="dropdown-item" href="galery.html"><i class="fas fa-gift"></i>Merch</a></li>
+                        <li><a class="dropdown-item" href="store.html"><i class="fas fa-store"></i>Tienda</a></li>
                       </ul>
                     </li>
-                    
                   </ul>
                   <form class="d-flex">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -87,87 +84,138 @@
                   </form>
                 </div>
               </div>
-            
-        
-        </nav>
+            </nav>
     </header>
-    
     <main class="grid-main">
       <section class="seccion-articulo hijo">
-
-        <div class="arriba">
-  
         <div class="columna-1">
           <article class="articulo-1">
-            <img class="imgGalleryBottom img" src="./images/cori12.jpg"  alt="atavio medieval marshall">
-            <h3>Atavio Medieval</h3>
-            <h2>descripcion</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste iusto vitae officia consequuntur illum deserunt dolorem, adipisci earum.</p>
-            <a href="#" >Leer más...</a>
+            <!-- Atavio Medieval 1 Carrusel -->
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./images/cori12.jpg" class="d-block w-100"   alt="atavio medieval">
+                </div>
+                <div class="carousel-item">
+                  <img src="./images/cori12.jpg" class="d-block w-100"   alt="marshall">
+                </div>
+                <div class="carousel-item">
+                  <img src="./images/cori12.jpg" class="d-block w-100"   alt="historical medieval battles">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <h3>Atavio Medieval:</h3>
+            <h2>Vesta de Knigth Marshall </h2>
+            <p>Atavio realizado para la representacion de los Knight Marshall(Una especie de arbitros) en los combates de HMB (Historical Medieval Battles)
+              Cada Marshall dentro de la liza de combate lleva como insignia , franjas negras como muestra de su rango .
+              En Heraldica el Amarillo simbolizala nobleza y el sable (negro) la prudencia
+            </p>
+            <a href="https://hmbia.info/home/who-we-are/#marshaling" target="_blank" >Leer más...</a>
           </article>
           <article class="articulo-1">
-            <div>	
+            <!-- Atavio Medieval 2 Carrusel -->
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./images/cori7.jpg" class="d-block w-100"   alt="atavio medieval">
+                </div>
+                <div class="carousel-item">
+                  <img src="./images/cori7.jpg" class="d-block w-100"   alt=atavio medieval lombardia siglo 7">
+                </div>
+                <div class="carousel-item">
+                  <img src="./images/cori7.jpg" class="d-block w-100"   alt="recreacionismo">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
-            <img class="imgGalleryBottom img" src="./images/cori7.jpg"  alt="atavio medieval lombardia siglo 7">
-            <h3>Atavio Medieval</h3>
-            <h2>Título </h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste iusto vitae officia consequuntur illum deserunt dolorem, adipisci earum.</p>
-            <a href="#" >Leer más...</a>
+            <h3>Atavio Medieval:</h3>
+            <h2>Tunica Lombarda </h2>
+            <p>El Pueblo de los Lombardos , migró desde escandinavia hacia la peninsula Italica en el siglo V , 
+              absorviendo las ciudades del antiguo Imperio Romano del cual se inspiraron para sus vestimentas.
+             La prenda esta realizada en un fino Lino con bordados hechos a mano en lana, detalles teñidos en cebolla </p>
+            <a href="https://es.wikipedia.org/wiki/Lombardos"  target="_blank">Leer más...</a>
           </article>
           <article class="articulo-1">
             <img class="imgGalleryTop img" src="./images/cori3.jpg"  alt="atavio medieval siglo 9">
-            <h3>Atavio Medieval</h3>
-            <h2>Título </h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste iusto vitae officia consequuntur illum deserunt dolorem, adipisci earum.</p>
-            <a href="#" >Leer más...</a>		
+            <h3>Atavio Medieval:</h3>
+            <h2>Tunica Escandinava </h2>
+            <p>El pueblo escandinavo, compuesto por las actuales Suecia, Noruega , Dinamarca , irrumpieron en la europa continental en el Siglo VII
+              vestian en distintos colores acorde a las diferentes verduras de las cuales 
+              obtenian el tinte como la cebolla por ejemplo. 
+              La Tunica fue confeccionada en Lino con bordados en lana hechos a mano  </p>
+            <a href="https://es.wikipedia.org/wiki/Vikingo" target="_blank" >Leer más...</a>		
           </article>
           <article class="articulo-1">
             <img class="imgGalleryTop img" src="./images/cori13.jpg"  alt="atavio medieval siglo 10 campesina">
-            <h3>Atavio Medieval</h3>
-            <h2>Título </h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste iusto vitae officia consequuntur illum deserunt dolorem, adipisci earum.</p>
-            <a href="#" >Leer más...</a>		
+            <h3>Atavio Medieval:</h3>
+            <h2> Camisola Europea de cortesana </h2>
+            <p>Los colores apagados eran comunes en los estratos sociales bajos en la europa medieval del siglo X-XII , colores como el azul,
+              de dificil extraccion por ese entonces, pertenecian a la clase alta, 
+              siendo pocos los privilegiados, aun asi ,los bordados a mano marcaban una diferencia para una Europa que venia atrasada tecnologiamente
+            </p>
+            <a href="https://es.wikipedia.org/wiki/Indumentaria_en_la_Edad_Media" target="_blank" >Leer más...</a>		
           </article>
           <div class="navegacion">
             <nav>
-              <a href="#">Primera</a>
+              <a href="#">Previus</a>
               <a href="#">1</a>
               <a href="#">2</a>
-              <a href="#">3</a>
-              <a href="#">4</a>
-              <a href="#">última</a>
+              <a href="#">Next</a>
             </nav>
           </div>
         </div>
       </section>
-        
-          
-        
-       
     </main>
-    
     <aside class="grid-aside">
       <img class="animate__animated animate__backInDown img-contact" src="./images/coriweb6.jpg" alt="costura artesanal molderia sastreria">
-        <p class=" animate__animated animate__backInDown p-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        <p class=" animate__animated animate__backInDown p-item">“La indumentaria en la Edad Media en Occidente estuvo en cierta medida determinada por el fenómeno del cristianismo y sus tabúes, las innovaciones en el vestir aportadas por los pueblos de la invasiones bárbaras y musulmanas, y la evolución del vestido romano y bizantino.
+          De forma paulatina el uso de la toga romana fue desapareciendo
+           y se extendió el uso de las túnicas y las primitivas «bracca» bárbaras
+            (especie de pantalones ajustados al cuerpo, hechos de piel de animal) dio paso a las calzas-bragas (precedente de pantalones, medias, leotardos, etc.) sujetas desde el tobillo a la rodilla por medio de correas entrelazadas o ajustadas hasta la cintura e incluyendo el pie en la prenda. También evolucionaron las capas, mantos y manteos en los varones y las sayas y los tocados en las mujeres.”
          </p>
     
     </aside>
     
     <footer class="grid-footer">
-        
-            
-            <ul class="ul-footer">
-              <li><a href="https://www.facebook.com"><i class="fab fa-facebook-square"></i> Facebook</a></li>
-              <li><a href="https://www.instagram.com"><i class="fab fa-instagram"></i> Instagram</a></li>
-              <li><a href="https://www.whatsapp.com"><i class="fab fa-whatsapp"></i> Whatsapp</a></li>
-              <li><a href="https://www.linkedin.com"><i class="fab fa-linkedin"></i> Linkedin</a></li>
-            </ul> 
-        
+      <nav >
+        <ul class="ul-footer">
+         <!-- Redes -->
+         <li class="lifooter"><a href="https://www.facebook.com" ><i class="fab fa-facebook-square"></i> </a></li>
+         <li class="lifooter"><a href="https://www.instagram.com"><i class="fab fa-instagram"></i> </a></li>
+         <li class="lifooter"><a href="https://www.whatsapp.com"><i class="fab fa-whatsapp"></i> </a></li>
+         <li class="lifooter"><a href="https://www.linkedin.com"><i class="fab fa-linkedin"></i> </a></li>
+         <!-- Enlaces internos -->
+         <li class="lifooter">|<a href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Inicio</a></li>  
+         <li class="lifooter">|<a href="about.html"><i class="fa fa-user" aria-hidden="true"></i> Bio</a></li>
+         <li class="lifooter">|<a href="contactus.html"><i class="fas fa-address-book"></i> Contacto</a></li>
+         <li class="lifooter">|<a href="service.html"><i class="fa fa-comments" aria-hidden="true"></i> Servicio</a></li>
+       </ul>
+     </nav>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>

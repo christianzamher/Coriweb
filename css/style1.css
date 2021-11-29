@@ -24,11 +24,15 @@
 }
 
 .ul-footer {
+  font-size: 15px;
   list-style: none;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
 }
-
-.h5-container {
-  text-align: center;
+.ul-footer a:hover {
+  background-color: #9c9586;
+  transition: 2s;
 }
 
 /* header*/
@@ -119,7 +123,12 @@
   display: flex;
   width: 440px;
   font-size: 20px;
-  text-align: left;
+  text-align: justify;
+  font-size: 15px;
+  letter-spacing: 2px;
+  padding: 30px 80px 0px 20px;
+  line-height: 1.45;
+  text-transform: none;
 }
 
 .nav {
@@ -225,14 +234,26 @@ a:hover {
   color: #080808;
 }
 
-.p-about {
-  width: 800px;
-  text-align: center;
-  font-size: 50px;
-}
-
 .parrafoIndex {
   padding-top: 30px;
+}
+
+.imgAbout {
+  height: 600px;
+  width: 600px;
+  margin: -16px;
+}
+
+.p-article {
+  display: flex;
+  width: 440px;
+  font-size: 20px;
+  text-align: inherit;
+  font-size: 15px;
+  letter-spacing: 2px;
+  padding: 30px 80px 0px 20px;
+  line-height: 1.45;
+  text-transform: none;
 }
 
 .contact-form {

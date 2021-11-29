@@ -4,10 +4,17 @@
 	grid-area: footer;
 }
 .ul-footer{
+		font-size: 15px;
 		list-style:none;
+		display: flex;
+    	flex-flow: row nowrap;
+		justify-content: center;
+		& a:hover{
+			background-color: rgb(156, 149, 134);
+			transition: 2s;
+		}
+
 }
 	
 		
-.h5-container{
-		text-align: center;
-}
+
