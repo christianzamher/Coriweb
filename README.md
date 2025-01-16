@@ -1,5 +1,5 @@
 # proyecto
-Proyecto de pagina web para CoderHouse 4ta entrega
+Portafolio de Corina Schvenberguer
 
 <h1 align="center">Hi 👋, I'm Christian Zamora Hermida</h1>
 <h3 align="center">A FullStack developer from Argentina</h3>
